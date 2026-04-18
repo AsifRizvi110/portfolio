@@ -3,32 +3,30 @@ import { motion } from "motion/react";
 import emailjs from "@emailjs/browser";
 import { ExternalLink } from "lucide-react";
 
+import webDevCert from "../image/Web Developer certificate copy.png";
+
 /* ---------------- PORTFOLIO ---------------- */
 
 export function PortfolioSection() {
   const projects = [
     {
-      title: "Modern Web App",
-      category: "Web Development",
-      img: "src/image/website rider.png",
+      title: "Riderpatner",
+      img: "/image/website rider.png",
       link: "https://riderpatner.vercel.app/",
     },
     {
-      title: "Brand Identity Design",
-      category: "Graphic Design",
-      img: "src/image/RMR.png",
+      title: "Consultancy",
+      img: "/image/RMR.png",
       link: "https://rmr-visa-91bd.vercel.app/",
     },
     {
-      title: "Cinematic Reel",
-      category: "Video Editing",
-      img: "src/image/DHA.png",
+      title: "Property",
+      img: "/image/DHA.png",
       link: "https://property-kappa-nine.vercel.app/",
     },
     {
-      title: "Dashboard Interface",
-      category: "UI/UX Design",
-      img: "src/image/solar.png",
+      title: "Solar",
+      img: "/image/solar.png",
       link: "https://solartech-coral.vercel.app/",
     },
   ];
@@ -71,16 +69,16 @@ export function CertificatesGallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const certificates = [
-    { title: "Web Developer", img: "src/image/Web Developer certificate copy.png" },
-    { title: "Graphic Designer", img: "src/image/Graphic Designer.png" },
-    { title: "Video Editing", img: "src/image/Video Editing Certificate.png" },
-    { title: "Survelance", img: "src/image/Survelance Certificate copy.png" },
-    { title: "Basic Computer", img: "src/image/basic_computer_certificate.png" },
-    { title: "JavaScript", img: "src/image/JavaScript- certificate.png" },
-    { title: "Soft Skills", img: "src/image/certificate_softskill.png" },
-    { title: "OSHA", img: "src/image/OSHA certificate.png" },
-    { title: "Data Analyst", img: "src/image/Data Analyst Certificate.png" },
-    { title: "WordPress", img: "src/image/WORDPRESS  Certificate.png" },
+    { title: "Web Developer", img: "/image/Web Developer certificate copy.png" },
+    { title: "Graphic Designer", img: "/image/Graphic Designer.png" },
+    { title: "Video Editing", img: "/image/Video Editing Certificate.png" },
+    { title: "Survelance", img: "/image/Survelance Certificate copy.png" },
+    { title: "Basic Computer", img: "/image/basic_computer_certificate.png" },
+    { title: "JavaScript", img: "/image/JavaScript- certificate.png" },
+    { title: "Soft Skills", img: "/image/certificate_softskill.png" },
+    { title: "OSHA", img: "/image/OSHA certificate.png" },
+    { title: "Data Analyst", img: "/image/Data Analyst Certificate.png" },
+    { title: "WordPress", img: "/image/WORDPRESS  Certificate.png" },
   ];
 
   return (

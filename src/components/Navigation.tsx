@@ -28,7 +28,7 @@ export function Navigation() {
       <header 
         className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? "py-2" : "py-4"}`}
       >
-        <div className="max-w-[1240px] mx-auto px-4 md:px-5">
+        <div className="max-w-1240px mx-auto px-4 md:px-5">
           <div className={`flex items-center justify-between rounded-xl transition-all duration-300 ${scrolled ? "bg-[#1e293b]/90 backdrop-blur-xl border border-white/10 p-3 shadow-2xl" : "bg-transparent p-2"}`}>
             <a href="#home" className="text-xl font-bold tracking-tighter text-slate-50">
               Syed Hashim <span className="text-blue-500"> Hussain Rizvi</span>
@@ -64,7 +64,7 @@ export function Navigation() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[60] bg-[#0f172a]/95 backdrop-blur-2xl flex flex-col p-6"
+            className="fixed inset-0 z-60 bg-[#0f172a]/95 backdrop-blur-2xl flex flex-col p-6"
           >
             <div className="flex justify-end mb-8">
               <button onClick={() => setMobileMenu(false)} className="p-2 text-slate-400 bg-[#1e293b] rounded border border-white/10 hover:text-white transition-colors">

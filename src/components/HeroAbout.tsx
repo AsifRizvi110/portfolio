@@ -10,7 +10,7 @@ export function HeroSection() {
         transition={{ duration: 0.5 }}
         className="w-20 h-20 rounded-full mx-auto mb-4 bg-blue-500 flex items-center justify-center text-white font-bold text-2xl uppercase border-2 border-[#1e293b] ring-2 ring-blue-500/30 overflow-hidden"
       >
-        <img src="src/image/asif photo 2.jpg" alt="Profile" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+        <img src="/image/asif photo 2.jpg" alt="Profile" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
       </motion.div>
       <div className="mb-4">
         <motion.h1 
@@ -37,7 +37,7 @@ export function HeroSection() {
         transition={{ duration: 0.5, delay: 0.3 }}
       >
         <button 
-  onClick={() => window.open('src/image/HSHIM HUSSAIN 110-1.pdf')}
+  onClick={() => window.open('/image/HSHIM HUSSAIN 110-1.pdf')}
   className="w-full bg-blue-500 text-white rounded-md px-4 py-2 text-[12px] font-semibold hover:bg-blue-600 transition-colors"
 >
   Download CV

@@ -13,12 +13,12 @@ const educationDetails = [
   {
     degree: "Intermediate (Commerce)",
     institute: "Board of Intermediate Education Karachi",
-    image: "src/image/Inter Certificate copy.png"
+    image: "/image/Inter Certificate copy.png"
   },
   {
     degree: "Matriculation (Computer Science)",
     institute: "Board of Secondary Education Karachi",
-    image: "src/image/Matric Certificate copy.png"
+    image: "/image/Matric Certificate copy.png"
   }
 ];
 

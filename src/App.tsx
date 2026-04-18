@@ -10,9 +10,9 @@ import { PortfolioSection, ContactSection, CertificatesGallery } from './compone
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0f172a] text-slate-50 font-sans selection:bg-blue-500/30 p-4 md:p-5">
+   <div className="min-h-screen bg-[#0f172a] text-slate-50 font-sans selection:bg-blue-500/30 px-6 md:px-10 lg:px-20">
       <Navigation />
-      <main className="max-w-[1200px] mx-auto pt-24 pb-8 grid lg:grid-cols-[280px_1fr_280px] gap-4 items-start">
+      <main className="max-w-1200px mx-auto pt-24 pb-8 grid lg:grid-cols-[280px_1fr_280px] gap-4 items-start">
         {/* Left Column */}
         <div className="flex flex-col gap-4">
           <HeroSection />
