@@ -78,6 +78,7 @@ export function CertificatesGallery() {
     { title: "Soft Skills", img: "/image/certificate_softskill.png" },
     { title: "OSHA", img: "/image/OSHA certificate.png" },
     { title: "Data Analyst", img: "/image/Data Analyst Certificate.png" },
+    { title: "Urdu AI", img: "/image/Urdu.png" },
     { title: "WordPress", img: "/image/WORDPRESS  Certificate.png" },
   ];
 
